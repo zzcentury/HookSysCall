@@ -33,7 +33,7 @@
 
 驱动程序的分层
 
-![USB](./images/syscall.png)
+![USB](./images/usb.png)
 
 ioctl直接与驱动程序通信
 
