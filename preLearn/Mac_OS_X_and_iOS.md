@@ -109,6 +109,8 @@ Mach VM
 
 ### 11.检查任务的地址空间
 
+vmmap
+
 ### 12.分页器
 
 	1.默认分页器
@@ -123,6 +125,30 @@ Mach VM
 	kmem_alloc_contig()
 	kmem_alloc_aligned()
 	kmem_free()
+
+## BSD
+
+### 系统调用
+
+### 网络
+
+### 文件系统
+
+### 虚拟文件系统
+
+### I/O Kit
+
+家族：特定设备类型的一般抽象
+驱动程序：负责管理特定的设备或总线
+块：可控制实体（如PCI或USB设备）的接口
+
+1.libkern库
+
+2.Platfrom Expert
+
+处理系统总线的枚举和检测
+
+
 
 
 
